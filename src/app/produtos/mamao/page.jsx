@@ -1,10 +1,10 @@
 import Produtos from '@/components/Produtos/Produtos'
 import React from 'react'
 
-export default function ProdutosPage() {
+export default function Mamao() {
   return (
     <div>
-        <Produtos/>
+        <Produtos prod={"Mamão"}/>
     </div>
   )
 }
