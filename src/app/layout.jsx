@@ -1,4 +1,5 @@
-import Link from 'next/link'
+
+import Cabecalho from '@/components/Cabecalho/Cabecalho'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -13,15 +14,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body className="dark:bg-slate-400">
+        <Cabecalho/>
 
-    <header>
-      <nav>
-        <Link href="/">HOME</Link> | 
-        <Link href="/produtos/mamao">MAMÃO</Link> | 
-        <Link href="/produtos/melao">MELÃO</Link> | 
-        <Link href="/produtos/manga">MANGA</Link>
-      </nav>
-    </header>
+   
 
         {children}
       </body>
