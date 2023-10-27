@@ -1,7 +1,6 @@
-
-import Cabecalho from '@/components/Cabecalho/Cabecalho'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Cabecalho from '@/components/Cabecalho/Cabecalho'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,9 +14,6 @@ export default function RootLayout({ children }) {
     <html lang="pt-br">
       <body className="dark:bg-slate-400">
         <Cabecalho/>
-
-   
-
         {children}
       </body>
     </html>
